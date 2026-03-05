@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find the Largest Number</title>
+</head>
+<body>
+
+<script>
+    var a = parseInt(prompt("Enter first number"));
+    var b = parseInt(prompt("Enter second number"));
+    var c = parseInt(prompt("Enter third number"));
+
+    if (a === b && a === c) {
+        document.write("ALL NUMBERS ARE EQUAL");
+        alert("All numbers are equal: " + a);
+    }
+    else if (a >= b && a >= c) {
+        document.write(a + " is the LARGEST NUMBER");
+        alert(a + " is the LARGEST NUMBER");
+    }
+    else if (b >= a && b >= c) {
+        document.write(b + " is the LARGEST NUMBER");
+        alert(b + " is the LARGEST NUMBER");
+    }
+    else {
+        document.write(c + " is the LARGEST NUMBER");
+        alert(c + " is the LARGEST NUMBER");
+    }
+</script>
+
+</body>
+</html>
