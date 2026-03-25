@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>HTML Links EXample</title>
+
+</head>
+<body>
+<h1>Links in HTML</h1>
+<!--Text Link-->
+<p>
+Click here to visit
+<a href="https://www.aec.edu.in/">AEC Website</a>
+</p>
+<!--Open link in a new tab-->
+<p>
+Click here to visit
+<a href="https://www.aec.edu.in/" target="_blank">Open AEC</a>
+</p>
+<hr>
+<!--Image as a link-->
+<h2>Click the Image to Open AEC Gallery</h2>
+<a href="https://adityauniversity.in/images/gallery/7.webp" target="_blank">
+<img src="https://via.placeholder.com/250x120?text=AEC+Gallery"alt="AEC Gallery Image">
+</a>
+<title>Profile Image</title>
+</head>
+<body>
+
+<h2>Click on my image</h2>
+
+<a href="https://outlook.live.com/mail/0/ ">
+    <img src="C:\Users\N S S DEVI\Downloads\god_htm.jpg"
+         alt="My Image"
+         width="200"
+         height="200">
+</a>
+</body>
+</html>

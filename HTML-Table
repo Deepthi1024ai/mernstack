@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>HTML TABLES</h2>
+<table>
+<table border="1">
+<tr>
+<th>Company</th>
+<th>Contact</th>
+<th>Country</th>
+</tr>
+<tr>
+<td>Infosys</td>
+<td>Varshitha</td>
+<td>India</td>
+</tr>
+<tr>
+<td>TCS</td>
+<td>Harsha</td>
+<td>America</td>
+</tr>
+<tr>
+<td>Amazon</td>
+<td>Durga</td>
+<td>Indonasia</td>
+</tr>
+<tr>
+<td>Meesho</td>
+<td>Devi</td>
+<td>North America</td>
+</tr>
+<tr>
+<td>Flipkart</td>
+<td>Baburao</td>
+<td>South Asia</td>
+</tr>
+<tr>
+</body>
+</html>

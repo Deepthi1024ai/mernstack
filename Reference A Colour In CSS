@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+<head>
+<title>CSS color references</title>
+<style>
+/*1.Color name*/
+.color-name{
+color:red;
+}
+/*2.Hexadecimal color*/
+.hex-color{
+color:#0000FF;
+}
+/*3.RGB color*/
+.rgb-color{
+ color: rgb(0,128,0);
+}
+/*4.RGBA color (with opacity)*/
+.rgba-color{
+color: rgba(255,0,0,0.5);
+}
+/*5.HSL color*/
+.hsl-color{
+color: hsl(240,100%,50%);
+}
+/*6.HSLA color(with opacity)*/
+.hsla-color{
+color: hsla(120,100%,25%,0.7);
+}
+</style>
+</head>
+<body>
+<h2 class="color-name">Color Name (RED)</h2>
+<h2 class="hex-color">Hexadecimal Color(#0000FF)</h2>
+<h2 class="rgb-color">RGB Color(Green)</h2>
+<h2 class="rgba-color">RGBA Color(Red with transparency)</h2>
+<h2 class="hsl-color">HSL-color(Blue)</h2>
+<h2 class="hsla-color">HSLA Color (Dark Green with transparency)</h2>
+</body>
+</html>
